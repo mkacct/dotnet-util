@@ -11,7 +11,7 @@ public static partial class Util {
 	/// <param name="val">A number.</param>
 	/// <param name="low">The lower bound.</param>
 	/// <param name="high">The upper bound.</param>
-	/// <returns>low <= val <= high.</returns>
+	/// <returns>low &lt;= val &lt;= high.</returns>
 	public static bool Between<N>(this N val, N low, N high) where N : INumber<N> => (val >= low) && (val <= high);
 
 	/// <param name="min">The minimum value.</param>
