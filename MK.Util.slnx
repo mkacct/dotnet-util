@@ -1,0 +1,4 @@
+<Solution>
+	<Project Path="MK.Util/MK.Util.csproj" />
+	<Project Path="MK.Util.Tests/MK.Util.Tests.csproj" />
+</Solution>
