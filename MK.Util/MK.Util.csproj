@@ -1,9 +1,31 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
+
 		<TargetFramework>net10.0</TargetFramework>
+
+		<PackageId>MK.Util</PackageId>
+		<Version>1.0</Version>
+		<Authors>MK</Authors>
+		<Copyright>Copyright (c) Madeline Kahn 2026</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageProjectUrl>https://github.com/mkacct/dotnet-util</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/mkacct/dotnet-util.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>util</PackageTags>
+		<PackageReleaseNotes>https://github.com/mkacct/dotnet-util/releases</PackageReleaseNotes>
+		<Description>Miscellaneous general utilities for .NET projects</Description>
+
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+
 	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="../icon.png" Pack="true" PackagePath="/" />
+		<None Include="../README.md" Pack="true" PackagePath="/" />
+	</ItemGroup>
 
 </Project>
