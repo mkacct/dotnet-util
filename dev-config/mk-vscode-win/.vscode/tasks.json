@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"presentation": {
+		"echo": false,
+		"panel": "dedicated",
+		"clear": true,
+		"reveal": "silent",
+		"close": true
+	},
+	"tasks": [
+		{
+			"label": "dotnet clean",
+			"type": "dotnet",
+			"task": "clean",
+			"problemMatcher": []
+		},
+		{
+			"label": "dotnet build",
+			"group": {"kind": "build", "isDefault": true},
+			"type": "dotnet",
+			"task": "build",
+			"problemMatcher": []
+		}
+	]
+}
